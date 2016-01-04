@@ -1,0 +1,22 @@
+{
+    "name": "fozzy/di",
+    "description": "Simple Dependancy Injection/Service Locator component.",
+    "keywords": [
+        "di",
+        "dependancy injection"
+        "fozzy"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fozzy\\Di\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
